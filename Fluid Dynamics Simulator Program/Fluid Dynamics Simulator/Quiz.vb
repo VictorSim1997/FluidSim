@@ -12,10 +12,10 @@ Public Class Quiz
         'Creates streamreader class
         Dim fileReader As StreamReader
         'Reads the short questions for QuickQuiz by default
-        fileReader = New StreamReader(My.Computer.FileSystem.SpecialDirectories.MyDocuments & "\Short questions.csv")
+        fileReader = New StreamReader(Directory.GetCurrentDirectory() & "../../../Resources/Quiz Questions/Short questions.csv")
         'If it is the CalculationQuiz thenr reads in the calculation questions
         If quiztype = "calculate" Then
-            fileReader = New StreamReader(My.Computer.FileSystem.SpecialDirectories.MyDocuments & "\Long questions.csv")
+            fileReader = New StreamReader(Directory.GetCurrentDirectory() & "../../../Resources/Quiz Questions/Long questions.csv")
         End If
         'Stores each line of the file in an array until end of file is reached
         Do
