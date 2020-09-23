@@ -14,7 +14,7 @@ Main Menu
 
 Simulator Mode
 
-![Results Plot](https://github.com/VictorSim1997/FluidSim/blob/master/SuppFilesForReadMe/PlotOfResults.png?raw=true)
+![Results Plot](https://github.com/VictorSim1997/FluidSim/blob/master/SuppFilesForReadMe/PlotOfResults.PNG?raw=true)
 
 Plot of Results 
 
